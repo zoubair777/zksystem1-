@@ -1,0 +1,15 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+# 3.0.6+: إصلاح ثغرات CVE-2024-49766 و CVE-2024-49767
+Werkzeug==3.0.6
+# 2.32.4+: إصلاح ثغرة تسريب بيانات الدخول CVE-2024-47081
+requests==2.32.4
+openpyxl==3.1.5
+reportlab==4.2.5
+arabic-reshaper==3.0.0
+python-bidi==0.4.2
+# صور الملصقات (label_service)
+pillow>=10.3
+# خادم الإنتاج للتشغيل على سيرفر (serve.py)
+waitress==3.0.2
